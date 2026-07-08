@@ -1,0 +1,19 @@
+# HM-DDI Classification — training & evaluation (Python 3.10)
+numpy<2
+tensorflow==2.16.1
+pandas
+scikit-learn
+scipy
+networkx
+matplotlib
+tqdm
+rdkit-pypi
+ipython
+
+# GPU runtime (CUDA 12, for AutoDL / Linux; skip if using conda CUDA)
+nvidia-cudnn-cu12==8.9.7.29
+nvidia-cublas-cu12==12.3.4.1
+nvidia-cuda-nvrtc-cu12==12.3.107
+nvidia-cuda-runtime-cu12==12.3.101
+nvidia-cuda-cupti-cu12==12.3.101
+nvidia-nvjitlink-cu12==12.3.101
